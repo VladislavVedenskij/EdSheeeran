@@ -1,0 +1,184 @@
+body {
+  background: rgba(255, 229, 180, 0.384);
+  color: rgba(170, 111, 0, 0.76);
+  font-family: "Courier Prime", monospace;
+}
+
+.common {
+  margin: 8em auto;
+  border: 12px double rgb(255, 184, 103);
+  background: rgb(255, 235, 197);
+  padding: 20px;
+  text-align: center;
+  max-width: 50em;
+}
+
+/* Первый абзац */
+
+.Ed {
+  display: block;
+  margin: auto;
+  text-align: center;
+  line-height: 1.7em;
+  padding: 2em 0em;
+}
+
+.Ed:first-letter {
+  font-size: 20px;
+}
+
+.Ed:first-line {
+  font-weight: 700;
+  color: rgb(133, 64, 0);
+  font-size: 18px;
+}
+
+/* Навигация */
+
+.nav {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0;
+  background: rgba(255, 183, 88, 0.425);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  max-width: 50em;
+  margin: 20px auto;
+}
+
+.nav ul {
+  display: flex;
+  padding: 0%;
+  margin: 0;
+}
+
+.nav li {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 25%;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgba(150, 72, 0, 0.89);
+  display: block;
+  background: rgba(255, 225, 128, 0.699);
+  transition: 0.7s;
+  padding: 1em 0em;
+}
+
+.s1:hover {
+  background: rgba(255, 136, 0, 0.938);
+  color: rgba(255, 136, 0, 0.459);
+  text-shadow: 10px 15px 1px black;
+}
+
+.s2:hover {
+  background: rgba(0, 192, 32, 0.952);
+  color: rgba(0, 192, 32, 0.5);
+  text-shadow: 4px -10px 1px black;
+}
+
+.s3:hover {
+  background: rgba(0, 217, 255, 0.932);
+  color: rgba(0, 217, 255, 0.596);
+  text-shadow: 4px 10px 1px rgb(0, 0, 0);
+}
+
+.s4:hover {
+  background: rgba(223, 0, 0, 0.932);
+  color: rgba(94, 0, 0, 0.596);
+  text-shadow: 4px -10px 1px rgb(0, 0, 0);
+}
+
+/* Изображения */
+
+.main_img {
+  margin: 3em auto;
+  max-width: 50em;
+  display: flex;
+}
+
+.main_img img {
+  width: 25%;
+}
+
+.last_p {
+  font-size: 1.1em;
+  margin: auto;
+  text-align: center;
+  max-width: 50em;
+}
+
+/* второй блок */
+
+.common1 {
+  border: 12px double rgb(255, 184, 103);
+  background: rgb(255, 235, 197);
+  margin: auto;
+  max-width: 50em;
+  display: flex;
+  padding: 2em;
+}
+
+.plus_p {
+  margin-left: 30px;
+  text-align: center;
+  margin: 5px;
+  width: 60%;
+}
+
+.common1 li,
+.common2 li,
+.common3 li,
+.common4 li {
+  list-style-type: none;
+  color: rgb(109, 40, 0);
+}
+
+.common1 img {
+  opacity: 95%;
+}
+
+h3 {
+  color: rgb(68, 25, 0);
+}
+
+/* третий блок */
+
+.common2 {
+  border: 12px double rgb(0, 148, 148);
+  background: rgba(197, 255, 252, 0.5);
+  margin: auto;
+  max-width: 50em;
+  display: flex;
+  padding: 2em;
+  margin-top: 5em;
+}
+
+/* четвертый блок */
+
+.common3 {
+  border: 12px double rgb(37, 223, 0);
+  background: rgba(149, 253, 158, 0.5);
+  margin: auto;
+  max-width: 50em;
+  display: flex;
+  padding: 2em;
+  margin-top: 5em;
+}
+
+/* 5 блок */
+
+.common4 {
+  border: 12px double rgb(255, 0, 0);
+  background: rgba(255, 180, 180, 0.5);
+  margin: auto;
+  max-width: 50em;
+  display: flex;
+  padding: 2em;
+  margin-top: 5em;
+}
